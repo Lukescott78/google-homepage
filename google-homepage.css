@@ -11,6 +11,26 @@
     text-align: center;
     position: relative;
     bottom: 50px;
-    height: 100px;
-   
+    height: 200px;
+    font-size: 24pt;
+    border-radius: 25px;
+    
 }
+
+#google-search {
+     display:block;
+     text-align: center;
+     position: relative;
+     right: 75px;
+     bottom: 200px;
+}
+
+#lucky-button {
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    bottom: 221px;
+    
+}
+

@@ -57,11 +57,19 @@ ul {
     
 }
 
-#navbottom {
-    background-color:rgb(188, 187, 169);
+.regionleft {
+    float:left;
+    bottom:70px;
 }
 
+li c {
+    display:block;
+    padding:15px;
+    position: relative;
+    bottom:70px;
 
+
+}
 
 .bottomleft {
     float:left;

@@ -37,6 +37,7 @@ ul {
     height: 200px;
     font-size: 24pt;
     border-radius: 25px;
+    line-height: 20%;
     
 }
 
@@ -57,31 +58,49 @@ ul {
     
 }
 
-.regionleft {
+/*.regionleft {
     float:left;
-    bottom:70px;
-}
-
-li c {
     display:block;
     padding:15px;
-    position: relative;
-    bottom:70px;
-
-
+    position: absolute;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
+    bottom: 25px;
+    background-color: beige;
+    width: 100%;
+    left: 0px;
+    height: 10px;
+    border-top: solid 1px red;
+    border-bottom: solid 1px red;
 }
+
+
+li c {
+ position: absolute;
+ left: 60px;
+ bottom: 10px;   
+} */
+
+
+
 
 .bottomleft {
     float:left;
+    
     
 }
 
 .bottomright {
     float:right;
+    
+    
+    
 }
 
 li b {
-    display:inline-block;
+    display:block;
     padding: 15px;
     color: black;
     opacity: 0.75;
@@ -90,5 +109,8 @@ li b {
     font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
+    position: relative;
+    
     
 }
+
